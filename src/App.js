@@ -26,6 +26,7 @@ function App() {
   const toggleCurrentTheme = () => {
     currenttheme === "light" ? setTheme("dark") : setTheme("light");
   };
+
   return (
     <ThemeProvider theme={currenttheme === "light" ? theme.light : theme.dark}>
       <GlobalStyle />
