@@ -46,8 +46,8 @@ export const ThemeButton = styled.button`
   margin: 1.25em;
   padding: 0.25em 1em;
   border-radius: 3px;
-  background-color: ${(props) => props.theme.backgroundColor};
-  color: ${(props) => props.theme.mainColor};
+  background-color: ${(props) => props.theme.mainColor};
+  color: ${(props) => props.theme.backgroundColor};
 `;
 
 export const Title = styled.h1`
